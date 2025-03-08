@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujan technologies</title>
+    <link rel="stylesheet" href="sujantech.css">
+    <style>
+        /* Add dropdown styles */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Sujan technologies</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li class="dropdown">
+                        <a href="youlogin.html" class="dropbtn">SERVICES</a>
+                        <div class="dropdown-content">
+                            <a href="freelancing.html">Freelancing</a>
+                            <a href="payment.html">Payment Gateway</a>
+                            <a href="#">IoT Integration</a>
+                        </div>
+                    </li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="contactform.html" class="link">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+        </div>
+
+        <!-- Rest of your content remains the same -->
+        <div class="content">
+            <h1>Engineering <br><span>Craft</span> <br>Solutions</h1>
+            <p class="par">
+                Welcome to Sujan technologies - where cutting-edge tech meets limitless freelance potential! Dive into AI, blockchain, and IoT breakthroughs, or connect with global clients seeking your skills. Explore expert guides, trending gigs, and tools to stay ahead in innovation and freelancing. Join a forward-thinking community shaping tomorrow’s work—your journey starts here
+            </p>
+
+            <hr>
+            <p class="highlighted-text" style="background-color: yellow; font-weight: bold;"></p>
+                Click on the Service menu to know more about our services. Our project is still a prototype and we are working on it.
+            </p>
+            <hr>
+            
+            <button class="cn" onclick="location.href='youlogin.html'">JOIN US</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <!-- Footer section starts -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3 class="footer-heading">SUJAN TECHNOLOGIES</h3>
+                    <p class="footer-description">
+                        Pioneering innovative solutions in AI, Blockchain, and IoT to transform businesses globally.
+                    </p>
+                </div>
+    
+                <div class="footer-section">
+                    <h4 class="footer-heading">QUICK LINKS</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h4 class="footer-heading">SERVICES</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Base Blockchain</a></li>
+                        <li><a href="#">Business Development</a></li>
+                        <li><a href="#">IoT Integration</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h4 class="footer-heading">CONTACT</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Tech Park, Bengaluru, India</p>
+                        <p><i class="fas fa-phone"></i> +91 7483981950</p>
+                        <p><i class="fas fa-envelope"></i> contact@sujantech.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p class="copyright">&copy; 2025 Sujan Technologies. All rights reserved</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</footer>
+</body>
+</html>
